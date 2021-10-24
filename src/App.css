@@ -1,38 +1,178 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 16px;
+}
+
+.logo {
+  width: 150px;
+}
+.link {
+  text-decoration: none;
+}
+/* navbar */
+.navbar {
+  background: #2f2d52 !important;
+  padding: 15px 0 !important;
+}
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-item .link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+/* home */
+.home {
+  background: #2f2d52;
+  position: relative;
+  padding: 200px 0;
+  overflow: hidden;
+}
+.home .text-box {
+  color: #fff;
+  z-index: 100000;
+  overflow: hidden;
+}
+.home .text-box h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.home .text-box h1 span {
+  color: #ffc78b;
+  font-size: 70px;
+}
+.home::before {
+  content: '';
+  width: 102%;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  bottom: -116px;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+/* .home::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: url('./images/overlay.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+} */
+
+
+/* feature */
+.feature {
+  background: #fff;
+  padding-top: 50px;
+}
+.feature .header-text h3 {
+  color: #2F2D51;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.feature-box {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.feature-box .icon {
+  padding: 25px;
+  background: #f5debc;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 100px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.feature-box .icon::before {
+  content: "";
+  background: transparent;
+  border: 1px solid #f5debc;
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border-radius: 100px;
+}
+.feature-box .icon2 {
+  background: #d3d8f8;
+}
+.feature-box .icon2::before {
+  border: 1px solid #d3d8f8;
+}
+.feature-box .icon3 {
+  background: #b3f4dc;
+}
+.feature-box .icon3::before {
+  border: 1px solid #b3f4dc;
+}
+.feature-box .icon img {
+  width: 50px;
+  height: 50px;
+}
+.feature-box p {
+  font-size: 14px;
+  color: #77838F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* course */
+.course {
+  padding-top: 100px;
+}
+.course .header-text h3 {
+  color: #2F2D51;
+  font-weight: 600;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.course-box {
+
 }
 
-.App-link {
-  color: #61dafb;
+/* footer */
+.footer {
+  background: #f2f1ff;
+  padding: 200px 0 100px 0;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer::before {
+  content: '';
+  width: 102%;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  top: -116px;
+  right: 0;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+.footer h6 {
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+.footer p {
+  font-size: 14px;
+  color: #77838F;
+}
+.footer .nav-item {
+  margin-bottom: 10px;
+}
+.footer .link {
+  font-size: 14px;
+  color: #77838F;
+  margin-bottom: 25px;
 }
