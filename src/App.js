@@ -42,3 +42,7 @@ function App() {
 }
 
 export default App;
+
+
+// code link: https://github.com/ProgrammingHeroWC4/review-website-googlermridul
+// live link: https://skolaa.netlify.app/
