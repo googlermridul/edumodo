@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 
-const Courses = () => {
+const CoursePage = () => {
    const [courses, setCourses] = useState([])
    useEffect(() => {
       fetch('/courseData.json')
       .then(res => res.json())
-      .then(data => setCourses(data.slice(0, 6)))
+      .then(data => setCourses(data))
    }, [])
 
    return (
-      <div className="courses">
+      <div className="courses course-page">
          <div className="container">
             <div className="header-text text-center mb-5">
                <h3>Popular Courses</h3>
@@ -28,4 +28,4 @@ const Courses = () => {
    );
 };
 
-export default Courses;
+export default CoursePage;

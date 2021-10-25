@@ -7,8 +7,7 @@ import NotFound from './components/NotFound/NotFound';
 import Main from './components/Main/Main';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Course from './components/Course/Course';
-import Courses from './components/Courses/Courses';
+import CoursePage from './components/CoursePage/CoursePage';
 
 function App() {
   return (
@@ -25,8 +24,8 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/course">
-            <Courses />
+          <Route path="/courses">
+            <CoursePage />
           </Route>
           <Route path="/contact">
             <Contact />

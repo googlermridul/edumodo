@@ -125,6 +125,10 @@ body {
   color: #77838F;
 }
 
+.course-page {
+  margin-top: 100px;
+}
+
 /* course */
 .courses {
   padding-top: 50px;

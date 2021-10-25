@@ -12,7 +12,7 @@ const About = () => {
                <div className="col-md-6">
                   <div className="about-info">
                      <h3>Know About Us</h3>
-                     <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                     <p>We provides more than 500 international courses to prove your skills. In this site you will get all quality courses. We have the best expertise to guide you.</p>
                      <ul>
                         <li>Creative Study Pattern</li>
                         <li>Quick Crash Courses</li>

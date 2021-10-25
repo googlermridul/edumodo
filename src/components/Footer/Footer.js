@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row">
                <div className="col-sm-6 col-lg-3">
                   <img className="logo mb-3" src={footerLogo} alt="" />
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, excepturi tempore iure suscipit eaque animi ipsam iusto similique dolorum laudantium beatae.</p>
+                  <p>Skola is an educational site which gives various courses regarding your need. It provides more than 500 international courses to prove your skills.</p>
                </div>
                <div className="col-sm-6 col-lg-3">
                   <h6>Useful Links</h6>
@@ -19,7 +19,7 @@ const Footer = () => {
                         <Link className="link" to="/home">Home</Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="link" to="/course">Courses</Link>
+                        <Link className="link" to="/courses">Courses</Link>
                      </li>
                      <li className="nav-item">
                         <Link className="link" to="/about">About Us</Link>

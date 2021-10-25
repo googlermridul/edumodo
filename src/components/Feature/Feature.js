@@ -18,7 +18,7 @@ const Feature = () => {
                         <img src={icon1} alt="" />
                      </div>
                      <h5>Learn Anything</h5>
-                     <p>Sed cursus turpis vitae tortor <br /> donec eaque ipsa quaeab illo.</p>
+                     <p>A range of courses across gardening, <br /> photography and more.</p>
                   </div>
                </div>
                <div className="col-md-4 my-5 my-md-0">
@@ -27,7 +27,7 @@ const Feature = () => {
                         <img src={icon2} alt="" />
                      </div>
                      <h5>Flexible Learning</h5>
-                     <p>Sed cursus turpis vitae tortor <br /> donec eaque ipsa quaeab illo.</p>
+                     <p>Knowledge discovery that helps you <br /> understand any topic.</p>
                   </div>
                </div>
                <div className="col-md-4">
@@ -36,7 +36,7 @@ const Feature = () => {
                         <img src={icon3} alt="" />
                      </div>
                      <h5>Learn With Experts</h5>
-                     <p>Sed cursus turpis vitae tortor <br /> donec eaque ipsa quaeab illo.</p>
+                     <p>Experts delivered you the best support <br /> regarding your need.</p>
                   </div>
                </div>
             </div>
