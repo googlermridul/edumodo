@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css'
 import { Link } from 'react-router-dom';
 import footerLogo from '../../images/footer-logo.svg'
 import paymentGateway from '../../images/online-payment.png'

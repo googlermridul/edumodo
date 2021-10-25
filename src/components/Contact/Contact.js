@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css'
 import contact from '../../images/undraw_researching_22gp.svg'
 
 const Contact = () => {

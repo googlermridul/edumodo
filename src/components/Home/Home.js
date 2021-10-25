@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css'
 import homeBg from '../../images/illustration-4.webp'
 
 const Home = () => {

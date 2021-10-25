@@ -1,4 +1,5 @@
 import React from 'react';
+import './Feature.css'
 import icon1 from '../../images/ebook.png'
 import icon2 from '../../images/ring.png'
 import icon3 from '../../images/book.png'

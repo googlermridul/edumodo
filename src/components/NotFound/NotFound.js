@@ -1,4 +1,5 @@
 import React from 'react';
+import './NotFound.css'
 import { Link } from 'react-router-dom';
 import notFound from '../../images/undraw_Taken_re_yn20.svg'
 

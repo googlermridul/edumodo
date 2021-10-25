@@ -1,0 +1,44 @@
+.contact {
+  margin-top: 200px;
+}
+.contact h3 {
+  color: #2F2D51;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.contact .form-group {
+  margin-bottom: 30px;
+}
+.contact .form-group label {
+  color: #2F2D51;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.contact .form-group input {
+  color: #77838F;
+  font-size: 14px;
+  height: 60px
+}
+.contact .form-group textarea {
+  color: #77838F;
+  font-size: 14px;
+  height: 180px
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: none !important;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgb(47, 45, 82) !important;
+}
+
+.submit-btn {
+  background: #2f2d52;
+  color: #fff !important;
+  width: 50%;
+  font-size: 16px !important;
+  border: none !important;
+  border-radius: 3px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Course.css'
 import Rating from 'react-rating';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen, faClock } from '@fortawesome/free-solid-svg-icons'
