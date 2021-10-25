@@ -13,17 +13,17 @@ const Footer = () => {
                </div>
                <div className="col-sm-6 col-md-4">
                   <h6>Useful Links</h6>
-                  <ul class="navbar-nav">
-                     <li class="nav-item">
+                  <ul className="navbar-nav">
+                     <li className="nav-item">
                         <Link className="link" to="/home">Home</Link>
                      </li>
-                     <li class="nav-item">
+                     <li className="nav-item">
                         <Link className="link" to="/course">Courses</Link>
                      </li>
-                     <li class="nav-item">
+                     <li className="nav-item">
                         <Link className="link" to="/about">About Us</Link>
                      </li>
-                     <li class="nav-item">
+                     <li className="nav-item">
                         <Link className="link" to="/contact">Contact</Link>
                      </li>
                   </ul>

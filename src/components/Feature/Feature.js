@@ -7,7 +7,7 @@ const Feature = () => {
    return (
       <div className="feature">
          <div className="container">
-            <div className="header-text text-center mb-5">
+            <div className="header-text text-center">
                <h3>Why Study With Skola</h3>
                <p>Discover Your Perfect Program In Our Courses.</p>
             </div>
@@ -21,7 +21,7 @@ const Feature = () => {
                      <p>Sed cursus turpis vitae tortor <br /> donec eaque ipsa quaeab illo.</p>
                   </div>
                </div>
-               <div className="col-md-4">
+               <div className="col-md-4 my-5 my-md-0">
                   <div className="feature-box">
                      <div className="icon icon2">
                         <img src={icon2} alt="" />
