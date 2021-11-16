@@ -1,6 +1,6 @@
-## Skola - Online School
+## EDUMODO - Online School
 
-### Live Preview: https://skolaa.netlify.app/
+### Live Preview: https://edumodoo.netlify.app/
 
 Project Fetures:
 

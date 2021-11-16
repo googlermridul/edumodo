@@ -29,6 +29,3 @@ const About = () => {
 };
 
 export default About;
-
-
-// chandni chok to china
