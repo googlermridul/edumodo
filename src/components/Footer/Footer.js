@@ -1,7 +1,5 @@
 import React from 'react';
-import './Footer.css'
 import { Link } from 'react-router-dom';
-import footerLogo from '../../images/footer-logo.svg'
 import paymentGateway from '../../images/online-payment.png'
 
 const Footer = () => {
@@ -10,7 +8,7 @@ const Footer = () => {
          <div className="container">
             <div className="row">
                <div className="col-sm-6 col-lg-3">
-                  <img className="logo mb-3" src={footerLogo} alt="" />
+                  <h3 className="logo mb-3">EDUMODO</h3>
                   <p>Skola is an educational site which gives various courses regarding your need. It provides more than 500 international courses to prove your skills.</p>
                </div>
                <div className="col-sm-6 col-lg-3">

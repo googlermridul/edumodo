@@ -1,15 +1,13 @@
 import React from 'react';
-import './Header.css'
 import { Link } from 'react-router-dom';
-import logo from '../../images/header-logo.svg'
 import hamburger from '../../images/menu2.png'
 
 const Header = () => {
    return (
       <nav className="navbar navbar-expand-md fixed-top">
          <div className="container">
-            <Link to="/home">
-               <img className="logo" src={logo} alt="" />
+            <Link className="link" to="/home">
+               <h3 className="logo">EDUMODO</h3>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <img className="hamburger" src={hamburger} alt="" />
