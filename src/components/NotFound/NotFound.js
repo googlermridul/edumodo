@@ -1,6 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import notFound from '../../images/undraw_Taken_re_yn20.svg'
+import React from "react";
+import "./NotFound.scss";
+import { Link } from "react-router-dom";
+import notFound from "../../images/undraw_Taken_re_yn20.svg";
 
 const NotFound = () => {
    return (

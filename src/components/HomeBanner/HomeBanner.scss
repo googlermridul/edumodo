@@ -1,0 +1,25 @@
+/* HOME */
+.home {
+   background: #2f2d52;
+   position: relative;
+   padding: 200px 0;
+   overflow: hidden;
+   .text-box {
+      color: #fff;
+      z-index: 100000;
+      overflow: hidden;
+      h1 span {
+         color: #ffc78b;
+      }
+   }
+   &::before {
+      content: "";
+      width: 103%;
+      height: 200px;
+      background: #fff;
+      position: absolute;
+      bottom: -116px;
+      transform: rotate(-5deg);
+      z-index: 1;
+   }
+}

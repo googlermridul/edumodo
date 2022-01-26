@@ -1,0 +1,41 @@
+/* COURSE */
+.course-box {
+   background: #fff;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   padding: 10px;
+   img {
+      border-radius: 10px;
+      margin-bottom: 15px;
+      width: 100%;
+   }
+   .info {
+      padding: 10px;
+      .category {
+         color: #77838f;
+         margin-bottom: 10px;
+      }
+      .title {
+         color: #2f2d51;
+         margin-bottom: 10px;
+      }
+      .price {
+         color: #444;
+         margin-bottom: 0px;
+         font-weight: 600;
+      }
+      .review {
+         color: #77838f;
+         font-size: 14px;
+      }
+      .fa-star {
+         color: #ffc78c;
+         font-size: 14px;
+      }
+      span,
+      .icon {
+         color: #77838f;
+         font-size: 14px;
+      }
+   }
+}

@@ -1,0 +1,41 @@
+/* CONTACT */
+.contact {
+   margin-top: 200px;
+}
+.contact h3 {
+   color: #2f2d51;
+   font-weight: 600;
+   font-size: 35px;
+   margin-bottom: 30px;
+}
+.contact .form-group {
+   margin-bottom: 30px;
+}
+.contact .form-group input,
+.contact .form-group select {
+   border: none;
+   color: #666;
+   height: 60px;
+   border-radius: 30px;
+   padding: 20px;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.contact .form-group input:focus {
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.contact .form-group textarea {
+   color: #333;
+   height: 180px;
+   border-radius: 30px;
+   padding: 20px;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+   border: none;
+}
+.submit-btn {
+   background: #2f2d52;
+   color: #fff !important;
+   width: 50%;
+   font-size: 16px !important;
+   border: none !important;
+   border-radius: 3px;
+}

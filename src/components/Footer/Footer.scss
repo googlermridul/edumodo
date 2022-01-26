@@ -1,0 +1,40 @@
+/* FOOTER */
+.footer {
+   background: #f2f1ff;
+   padding: 200px 0 100px 0;
+   margin-top: 50px;
+   position: relative;
+   overflow: hidden;
+}
+.footer::before {
+   content: "";
+   width: 102%;
+   height: 200px;
+   background: #fff;
+   position: absolute;
+   top: -116px;
+   right: 0;
+   transform: rotate(-5deg);
+   z-index: 1;
+}
+.footer .logo {
+   color: #2f2d52;
+   font-weight: 900;
+   padding-top: 20px;
+}
+.footer h6 {
+   margin-top: 27px;
+   margin-bottom: 30px;
+}
+.footer p {
+   font-size: 14px;
+   color: #77838f;
+}
+.footer .nav-item {
+   margin-bottom: 10px;
+}
+.footer .link {
+   font-size: 14px;
+   color: #77838f;
+   margin-bottom: 25px;
+}
