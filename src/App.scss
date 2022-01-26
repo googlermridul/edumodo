@@ -35,7 +35,11 @@ h5 {
       color: #fe9d3e;
    }
 }
-
+.error {
+   font-size: 14px;
+   color: #ff4500;
+   text-transform: lowercase;
+}
 .header-text {
    text-transform: capitalize;
    margin-bottom: 50px;
@@ -66,6 +70,49 @@ h5 {
 .about .about-info ul li {
    color: #77838f;
    margin-bottom: 10px;
+}
+
+.btn-black {
+   background: #2f2d52;
+   border: 1px solid #2f2d52;
+   text-transform: capitalize;
+   color: #fff;
+   font-weight: 600;
+   font-style: 16px;
+   height: 50px;
+   width: 100px;
+   border-radius: 3px;
+   transition: 0.4s;
+   &:hover {
+      background: transparent;
+      color: #2f2d52;
+   }
+}
+
+.loader {
+   position: absolute;
+   top: calc(50% - 4em);
+   left: calc(50% - 4em);
+   width: 6em;
+   height: 6em;
+   border: 1.1em solid rgba(0, 0, 0, 0.2);
+   border-left: 1.1em solid #000000;
+   border-radius: 50%;
+   animation: load8 1.1s infinite linear;
+   transition: opacity 0.3s;
+}
+
+.loader--hide {
+   opacity: 0;
+}
+
+@keyframes load8 {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
 }
 
 /* media queries */

@@ -1,38 +1,42 @@
 .login-section {
-   margin: 100px 0;
+   margin-top: 200px;
    .form-box {
       max-width: 500px;
-      background: #f7f7f8;
-      padding: 30px;
+      // background: #f7f7f8;
+      // padding: 30px;
       margin: auto;
       h4 {
-         text-transform: uppercase;
-         margin-bottom: 30px;
+         margin-bottom: 20px;
+         color: #2f2d52;
+         text-transform: capitalize;
       }
       .form-group {
-         margin-bottom: 15px;
+         margin-bottom: 20px;
+         label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #2f2d52;
+         }
          .form-control {
-            border-radius: 0px;
+            border-radius: 3px;
             color: #666;
-            height: 50px;
+            height: 60px;
+            padding: 20px;
             border: 1px solid #e5e5e5;
             &:focus {
-               box-shadow: 0 0rem 0rem rgba(0,0,0,.15)!important;
-               border: 1px solid #121619;
+               box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0.15) !important;
+               border: 1px solid #2f2d52;
             }
          }
       }
-      .btn-black {
-         width: 100%;
-      }
       .google-btn {
          width: 100%;
-         margin-bottom: 15px;
+         margin-bottom: 20px;
          background: #fff;
          border: none;
          text-transform: capitalize;
-         color: #121619;
-         font-size: 18px;
+         color: #2f2d52;
+         font-size: 16px;
          img {
             margin-right: 15px;
             width: 20px;
@@ -42,7 +46,7 @@
          margin-bottom: 0;
          margin-top: 15px;
          .link {
-            color: #fe9d3e;
+            color: #2f2d52;
          }
       }
       .divider {
@@ -51,7 +55,7 @@
          font-size: 14px;
          position: relative;
          z-index: 1;
-         margin-bottom: 15px;
+         margin-bottom: 20px;
          &:before {
             content: " ";
             background: #e5e5e5;
@@ -63,7 +67,7 @@
             z-index: -1;
          }
          span {
-            background: #f7f7f8;
+            background: #fff;
             padding: 0 10px;
          }
       }
@@ -82,7 +86,7 @@
    }
    .failure-alert {
       background: #fce4e0;
-      color: #fe6954;
+      color: #ff4500;
    }
    .pre-loader {
       margin-top: 15px;

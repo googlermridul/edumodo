@@ -12,8 +12,20 @@ const GetApp = () => {
                <p>Download the app from both play and app store</p>
             </div>
             <div className="app-box text-center">
-               <img src={android} alt="" />
-               <img src={ios} alt="" />
+               <a
+                  href="https://play.google.com/store/apps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img src={android} alt="" />
+               </a>
+               <a
+                  href="https://www.apple.com/app-store/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img src={ios} alt="" />
+               </a>
             </div>
          </div>
       </div>

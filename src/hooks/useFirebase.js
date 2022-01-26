@@ -108,7 +108,7 @@ const useFirebase = () => {
    // save user to database
    const saveUser = (email, displayName, method) => {
       const user = { email, displayName };
-      fetch("https://gentle-gorge-16507.herokuapp.com/addUser", {
+      fetch("http://localhost:5000/addUser", {
          method: method,
          headers: {
             "content-type": "application/json",
@@ -118,7 +118,7 @@ const useFirebase = () => {
    };
 
    useEffect(() => {
-      fetch(`https://gentle-gorge-16507.herokuapp.com/users/${user.email}`)
+      fetch(`http://localhost:5000/users/${user.email}`)
          .then((res) => res.json())
          .then((data) => setAdmin(data.admin));
    }, [user.email]);
