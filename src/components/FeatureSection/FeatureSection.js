@@ -4,7 +4,7 @@ import icon1 from "../../images/ebook.png";
 import icon2 from "../../images/ring.png";
 import icon3 from "../../images/book.png";
 
-const Feature = () => {
+const FeatureSection = () => {
    return (
       <div className="feature-section">
          <div className="container">
@@ -55,4 +55,4 @@ const Feature = () => {
    );
 };
 
-export default Feature;
+export default FeatureSection;

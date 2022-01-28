@@ -1,0 +1,23 @@
+/* ABOUT */
+.about {
+   margin-top: 200px;
+   margin-bottom: 50px;
+   .img-fluid {
+      border-radius: 10px;
+   }
+   .about-info {
+      h3 {
+         color: #2f2d51;
+         font-weight: 600;
+         font-size: 35px;
+         margin-bottom: 15px;
+      }
+      p {
+         color: #77838f;
+      }
+      ul li {
+         color: #77838f;
+         margin-bottom: 10px;
+      }
+   }
+}

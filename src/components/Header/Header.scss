@@ -3,12 +3,13 @@
    background: #2f2d52 !important;
    padding: 15px 0 !important;
    .logo {
-      color: #fff;
+      color: #fff !important;
       text-transform: lowercase;
       padding-top: 15px;
    }
    .hamburger {
       padding-top: 10px;
+      width: 28px;
    }
    .navbar-nav {
       margin-left: auto;
@@ -20,5 +21,22 @@
    }
    .navbar-toggler:focus {
       box-shadow: 0 0 0 0rem !important;
+   }
+   .user-cart {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      li {
+         margin: 0 15px;
+      }
+   }
+}
+
+@media (max-width: 767px) {
+   .navbar {
+      .user-cart {
+         margin-left: 100px;
+      }
    }
 }

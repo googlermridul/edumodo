@@ -1,0 +1,114 @@
+.details-section {
+   margin-top: 200px;
+   margin-bottom: 100px;
+   .detail-box {
+      .instructor {
+         margin-top: 30px;
+         display: flex;
+         align-items: center;
+         img {
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            border: 1px solid #e5e5e5;
+            padding: 8px;
+         }
+         .box {
+            margin-right: 30px;
+            h5 {
+               font-size: 16px !important;
+            }
+            p {
+               color: #77838f;
+               font-size: 14px;
+               margin-bottom: 0;
+            }
+            .fa-star {
+               color: #ffc78c;
+               font-size: 14px;
+               margin-right: 5px;
+            }
+            span,
+            .icon {
+               color: #77838f;
+               font-size: 14px;
+            }
+         }
+      }
+   }
+   .indicator {
+      margin: 50px 0;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e5e5e5;
+      padding-left: 0;
+      li {
+         list-style: none;
+         margin-right: 30px;
+         padding: 0 15px 10px 15px;
+         cursor: pointer;
+         font-weight: 600;
+      }
+      li.active {
+         border-bottom: 3px solid #2f2d52;
+      }
+   }
+   .indicator-details {
+      p {
+         color: #77838f;
+         line-height: 1.8;
+      }
+      h4 {
+         margin-bottom: 15px;
+      }
+   }
+   .purchase-course-box {
+      border: 1px solid #e5e5e5;
+      padding: 8px;
+      border-radius: 3px;
+      .img-box {
+         margin-bottom: 20px;
+         img {
+            border-radius: 3px;
+         }
+      }
+      .info-box {
+         padding: 0 15px;
+         .price {
+            margin-bottom: 15px;
+            color: #2f2d52;
+         }
+         .btn-black {
+            width: 100%;
+            margin-bottom: 15px;
+         }
+         ul {
+            padding-left: 0;
+            margin-bottom: 0;
+            li {
+               list-style: none;
+               display: flex;
+               justify-content: space-between;
+               border-bottom: 1px solid #e5e5e5;
+               padding: 12px 0 10px 0;
+               span:first-child {
+                  font-weight: 500;
+               }
+               span {
+                  text-transform: capitalize;
+                  font-size: 15px;
+                  color: #666;
+               }
+               .icon {
+                  margin-right: 10px;
+                  color: #4a8f9f;
+                  font-size: 14px;
+               }
+               &:last-child {
+                  border-bottom: none;
+               }
+            }
+         }
+      }
+   }
+}

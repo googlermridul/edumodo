@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./CourseSection.scss";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const CourseSection = () => {
    const [courses, setCourses] = useState([]);
    useEffect(() => {
       fetch("/courseData.json")
@@ -19,7 +19,7 @@ const Courses = () => {
             </div>
             <div className="row">
                {courses.map((course) => (
-                  <Course course={course} key={course.id}></Course>
+                  <Course course={course} key={course._id}></Course>
                ))}
             </div>
          </div>
@@ -27,4 +27,4 @@ const Courses = () => {
    );
 };
 
-export default Courses;
+export default CourseSection;

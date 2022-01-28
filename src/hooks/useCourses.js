@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useMenus = () => {
+const useCourses = () => {
    const [menus, setMenus] = useState([]);
    useEffect(() => {
       fetch("http://localhost:5000/menus")
@@ -11,4 +11,4 @@ const useMenus = () => {
    return [menus];
 };
 
-export default useMenus;
+export default useCourses;

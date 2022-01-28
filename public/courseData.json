@@ -1,6 +1,6 @@
 [
    {
-      "id": 1,
+      "_id": 1,
       "title": "Java Programming and Software Engineering Fundamentals",
       "category": "Software Engineering",
       "duration": "4h 5m",
@@ -11,7 +11,7 @@
       "image": "https://i.ibb.co/YZ15Nzc/pexels-artem-podrez-4492129-min.jpg"
    },
    {
-      "id": 2,
+      "_id": 2,
       "title": "Learn Figma: User Interface Design Essentials – UI/UX Design",
       "category": "Personal Development",
       "duration": "4h 44m",
@@ -22,7 +22,7 @@
       "image": "https://i.ibb.co/F5CP0cr/pexels-emily-ranquist-1205651-min.jpg"
    },
    {
-      "id": 3,
+      "_id": 3,
       "title": "The Complete JavaScript Course 2020: Build Real Projects!",
       "category": "App Development",
       "duration": "35 week",
@@ -33,7 +33,7 @@
       "image": "https://i.ibb.co/bzFTNLP/pexels-fox-1595385-min.jpg"
    },
    {
-      "id": 4,
+      "_id": 4,
       "title": "Open Source Software Development, Linux and Git",
       "category": "Designing",
       "duration": "3h 50m",
@@ -44,7 +44,7 @@
       "image": "https://i.ibb.co/1smh5LZ/pexels-fox-1595391-min.jpg"
    },
    {
-      "id": 5,
+      "_id": 5,
       "title": "Digital Signal Processing: Analog vs Digital",
       "category": "Photography",
       "duration": "6h 40m",
@@ -55,7 +55,7 @@
       "image": "https://i.ibb.co/g44fVCM/pexels-giftpunditscom-1326947-min.jpg"
    },
    {
-      "id": 6,
+      "_id": 6,
       "title": "Developing Android Apps with App Inventor",
       "category": "JavaScript",
       "duration": "6h 21m",
@@ -66,7 +66,7 @@
       "image": "https://i.ibb.co/vLZTTLm/pexels-julia-m-cameron-4144222-min.jpg"
    },
    {
-      "id": 7,
+      "_id": 7,
       "title": "Become a CBRS Certified Professional Installer by Google",
       "category": "Job Preperation",
       "duration": "2h 12m",
@@ -77,7 +77,7 @@
       "image": "https://i.ibb.co/fCLWZBN/pexels-julia-m-cameron-4145153-min.jpg"
    },
    {
-      "id": 8,
+      "_id": 8,
       "title": "Linux and Private Cloud Administration on IBM Power Systems",
       "category": "Linus Operating",
       "duration": "8h 12m",
@@ -88,7 +88,7 @@
       "image": "https://i.ibb.co/Wpdc6WX/pexels-max-fischer-5212345-min.jpg"
    },
    {
-      "id": 9,
+      "_id": 9,
       "title": "Java Programming and Software Engineering Fundamentals",
       "category": "Java",
       "duration": "6h 48m",
@@ -99,7 +99,7 @@
       "image": "https://i.ibb.co/3yFkNMv/pexels-pragyan-bezbaruah-1720186-min.jpg"
    },
    {
-      "id": 10,
+      "_id": 10,
       "title": "Open Source Software Development, Linux and Git",
       "category": "Software",
       "duration": "8h 51m",
@@ -110,7 +110,7 @@
       "image": "https://i.ibb.co/q1BywcG/pexels-visual-tag-mx-2566581-min.jpg"
    },
    {
-      "id": 11,
+      "_id": 11,
       "title": "Productivity and Time Management for workplace",
       "category": "Marketing",
       "duration": "4h 56m",
@@ -121,7 +121,7 @@
       "image": "https://i.ibb.co/bdzS1w2/pexels-yogendra-singh-731510-min.jpg"
    },
    {
-      "id": 12,
+      "_id": 12,
       "title": "Developing Android Apps with App Inventor",
       "category": "Android Development",
       "duration": "7h 12m",

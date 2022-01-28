@@ -1,0 +1,63 @@
+.cart-section {
+   margin-top: 200px;
+   margin-bottom: 100px;
+   h4 {
+      margin-bottom: 50px;
+   }
+   .course-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 30px;
+      img {
+         width: 100px;
+         border-radius: 3px;
+      }
+      .price {
+         color: #666;
+         font-size: 18px;
+      }
+      .title {
+         max-width: 300px;
+      }
+      .btn-black.delete {
+         width: 45px;
+         height: 45px;
+         padding-top: 5px;
+      }
+      &:last-child {
+         margin-bottom: 0;
+         border-bottom: 0px solid #e5e5e5;
+      }
+   }
+   .estimation-box {
+      h4 {
+         margin-bottom: 20px;
+      }
+      border: 1px solid #e5e5e5;
+      padding: 20px;
+      border-radius: 3px;
+      .btn-black {
+         width: 100%;
+      }
+      ul {
+         padding-left: 0;
+         li {
+            list-style: none;
+            font-weight: 600;
+            margin-bottom: 15px;
+            span {
+               float: right;
+               color: #666;
+               font-weight: normal;
+            }
+         }
+         .total {
+            border-top: 1px solid #e5e5e5;
+            padding-top: 15px;
+         }
+      }
+   }
+}

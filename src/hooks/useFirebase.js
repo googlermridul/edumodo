@@ -29,7 +29,7 @@ const useFirebase = () => {
             setUser(res.user);
             const name = res.user.displayName;
             const email = res.user.email;
-            saveUser(email, name, "PUT");
+            // saveUser(email, name, "PUT");
             const destination = location?.state?.from || "/";
             history.replace(destination);
          })
@@ -43,7 +43,7 @@ const useFirebase = () => {
       createUserWithEmailAndPassword(auth, data.email, data.password)
          .then((res) => {
             setUser(res.user);
-            saveUser(data.email, data.displayName, "POST");
+            // saveUser(data.email, data.displayName, "POST");
             updateProfile(auth.currentUser, {
                displayName: data.displayName,
             })
@@ -106,22 +106,22 @@ const useFirebase = () => {
    }, [auth]);
 
    // save user to database
-   const saveUser = (email, displayName, method) => {
-      const user = { email, displayName };
-      fetch("http://localhost:5000/addUser", {
-         method: method,
-         headers: {
-            "content-type": "application/json",
-         },
-         body: JSON.stringify(user),
-      }).then();
-   };
+   // const saveUser = (email, displayName, method) => {
+   //    const user = { email, displayName };
+   //    fetch("http://localhost:5000/addUser", {
+   //       method: method,
+   //       headers: {
+   //          "content-type": "application/json",
+   //       },
+   //       body: JSON.stringify(user),
+   //    }).then();
+   // };
 
-   useEffect(() => {
-      fetch(`http://localhost:5000/users/${user.email}`)
-         .then((res) => res.json())
-         .then((data) => setAdmin(data.admin));
-   }, [user.email]);
+   // useEffect(() => {
+   //    fetch(`http://localhost:5000/users/${user.email}`)
+   //       .then((res) => res.json())
+   //       .then((data) => setAdmin(data.admin));
+   // }, [user.email]);
 
    return {
       user,
