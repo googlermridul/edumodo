@@ -39,8 +39,9 @@ const Cart = () => {
                         />
                      </button>
                   </div>
+                  <p className="failure-alert">Logged in successfully</p>
                </div>
-               <div className="col-lg-4 ps-lg-5">
+               <div className="col-lg-4 ps-lg-5 mt-5 mt-lg-0">
                   <div className="estimation-box">
                      <h4>Cart totals</h4>
                      <ul>

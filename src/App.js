@@ -13,6 +13,7 @@ import Register from "./components/LoginRegister/Register";
 import AuthProvider from "./contexts/AuthProvider";
 import CourseDetails from "./components/CourseDetails/CourseDetails";
 import Cart from "./components/Cart/Cart";
+import Dashboard from "./components/AdminPanel/Dashboard/Dashboard";
 
 function App() {
    return (
@@ -47,6 +48,9 @@ function App() {
                   </Route>
                   <Route path="/cart">
                      <Cart />
+                  </Route>
+                  <Route path="/admin">
+                     <Dashboard />
                   </Route>
                   <Route path="*">
                      <NotFound />

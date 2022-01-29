@@ -1,0 +1,18 @@
+.top-header {
+   padding: 26px 0 !important;
+   transition: 0.3s;
+   z-index: 1031;
+   .logo {
+      color: #fff;
+      padding-left: 15px;
+      padding-top: 0px;
+      h3 {
+         margin-bottom: 0;
+         color: #fff !important;
+      }
+   }
+   .navbar-toggler {
+      width: 32px;
+      right: 38px;
+   }
+}
