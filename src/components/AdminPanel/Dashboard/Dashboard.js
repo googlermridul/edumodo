@@ -7,10 +7,10 @@ import TopHeader from "../TopHeader/TopHeader";
 import useAuth from "../../../hooks/useAuth";
 import "./Dashboard.scss";
 import AddCourse from "../AddCourse/AddCourse";
-import ManageMenus from "../ManageMenus/ManageMenus";
+import ManageCourses from "../ManageCourses/ManageCourses";
 import ManageOrders from "../ManageOrders/ManageOrders";
 import MakeAdmin from "../MakeAdmin/MakeAdmin";
-import TableBookings from "../TableBookings/TableBookings";
+import Contacts from "../Contacts/Contacts";
 import ManageUsers from "../ManageUsers/ManageUsers";
 
 const Dashboard = () => {
@@ -39,12 +39,12 @@ const Dashboard = () => {
                            </Link>
                         </li>
                         <li className="nav-item">
-                           <Link className="link" to={`${url}/manageMenus`}>
+                           <Link className="link" to={`${url}/manageCourses`}>
                               <FontAwesomeIcon
                                  className="fa-icon"
                                  icon={faThLarge}
                               />{" "}
-                              Manage Menus
+                              Manage Courses
                            </Link>
                         </li>
                         <li className="nav-item">
@@ -53,16 +53,16 @@ const Dashboard = () => {
                                  className="fa-icon"
                                  icon={faThLarge}
                               />{" "}
-                              Manage Food Orders
+                              Manage Orders
                            </Link>
                         </li>
                         <li className="nav-item">
-                           <Link className="link" to={`${url}/tableBookings`}>
+                           <Link className="link" to={`${url}/contacts`}>
                               <FontAwesomeIcon
                                  className="fa-icon"
                                  icon={faThLarge}
                               />{" "}
-                              Manage Table Bookings
+                              Manage Contacts
                            </Link>
                         </li>
                         <li className="nav-item">
@@ -108,14 +108,14 @@ const Dashboard = () => {
                      <Route path={`${path}/addCourse`}>
                         <AddCourse />
                      </Route>
-                     <Route path={`${path}/manageMenus`}>
-                        <ManageMenus />
+                     <Route path={`${path}/manageCourses`}>
+                        <ManageCourses />
                      </Route>
                      <Route path={`${path}/manageOrders`}>
                         <ManageOrders />
                      </Route>
-                     <Route path={`${path}/tableBookings`}>
-                        <TableBookings />
+                     <Route path={`${path}/contacts`}>
+                        <Contacts />
                      </Route>
                      <Route path={`${path}/manageUsers`}>
                         <ManageUsers />

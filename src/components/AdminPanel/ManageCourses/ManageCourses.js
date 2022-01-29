@@ -1,68 +1,73 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
+import "./ManageCourses.scss";
 
-const ManageUsers = () => {
-   const [users, setUsers] = useState([]);
+const ManageCourses = () => {
+   const [menus, setMenus] = useState([]);
 
    useEffect(() => {
-      fetch("http://localhost:5000/users")
+      fetch("http://localhost:5000/menus")
          .then((res) => res.json())
-         .then((data) => setUsers(data));
-   }, []);
+         .then((data) => setMenus(data));
+   }, [menus]);
 
    const handleDelete = (id) => {
       const proceed = window.confirm("Are you sure you want to delete");
       if (proceed) {
-         fetch(`http://localhost:5000/deleteUser/${id}`, {
+         fetch(`http://localhost:5000/deleteMenu/${id}`, {
             method: "DELETE",
          })
             .then((res) => res.json())
             .then((data) => {
                if (data.deletedCount) {
-                  const remaining = users.filter((menu) => menu._id !== id);
-                  setUsers(remaining);
+                  const remaining = menus.filter((menu) => menu._id !== id);
+                  setMenus(remaining);
                }
             });
       }
    };
 
    return (
-      <div className="manage-menus manage-orders">
+      <div className="manage-menus">
          <div className="container">
             <div className="row">
                <div className="col">
                   <div className="menu-table">
-                     <h4>manage all users</h4>
+                     <h4>manage all courses</h4>
                      <table className="table mb-0">
                         <thead>
                            <tr>
-                              <th scope="col">Name</th>
-                              <th scope="col">Email</th>
-                              <th scope="col">Role</th>
+                              <th scope="col">Item</th>
+                              <th scope="col">Item name</th>
+                              <th scope="col">Description</th>
+                              <th scope="col">Price</th>
                               <th scope="col">Action</th>
                            </tr>
                         </thead>
                         <tbody>
-                           {users.map((user) => (
-                              <tr key={user._id}>
+                           {menus.map((menu) => (
+                              <tr key={menu._id}>
                                  <td>
-                                    <p>{user.displayName}</p>
+                                    <img
+                                       className="img-fluid"
+                                       src={menu.image}
+                                       alt=""
+                                    />
                                  </td>
                                  <td>
-                                    <p>{user.email}</p>
+                                    <p>{menu.name}</p>
                                  </td>
                                  <td>
-                                    <p>
-                                       {user.role === undefined
-                                          ? "User"
-                                          : "Admin"}
-                                    </p>
+                                    <p></p>
+                                 </td>
+                                 <td>
+                                    <p>${menu.price}</p>
                                  </td>
                                  <td>
                                     <p>
                                        <button
-                                          onClick={() => handleDelete(user._id)}
+                                          onClick={() => handleDelete(menu._id)}
                                           className="btn-black delete"
                                        >
                                           <FontAwesomeIcon
@@ -74,13 +79,6 @@ const ManageUsers = () => {
                                  </td>
                               </tr>
                            ))}
-                           {users.length === 0 && (
-                              <tr>
-                                 <td colSpan="6">
-                                    <p className="mb-0">No user found!</p>
-                                 </td>
-                              </tr>
-                           )}
                         </tbody>
                      </table>
                   </div>
@@ -91,4 +89,4 @@ const ManageUsers = () => {
    );
 };
 
-export default ManageUsers;
+export default ManageCourses;
