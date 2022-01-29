@@ -13,7 +13,7 @@ const Cart = () => {
    const [subTotal, setSubTotal] = useState(0);
 
    useEffect(() => {
-      fetch(`http://localhost:5000/cartOrders/${user.email}`)
+      fetch(`https://polar-lake-68435.herokuapp.com/cartOrders/${user.email}`)
          .then((res) => res.json())
          .then((data) => setCartOrders(data));
    }, [user]);
@@ -37,7 +37,7 @@ const Cart = () => {
    const handleDelete = (id) => {
       const proceed = window.confirm("Are you sure you want to delete");
       if (proceed) {
-         fetch(`http://localhost:5000/deleteCartOrder/${id}`, {
+         fetch(`https://polar-lake-68435.herokuapp.com/deleteCartOrder/${id}`, {
             method: "DELETE",
          })
             .then((res) => res.json())
@@ -55,9 +55,12 @@ const Cart = () => {
    };
 
    const handleDeleteAll = (email) => {
-      fetch(`http://localhost:5000/deleteAllCartOrder/${email}`, {
-         method: "DELETE",
-      })
+      fetch(
+         `https://polar-lake-68435.herokuapp.com/deleteAllCartOrder/${email}`,
+         {
+            method: "DELETE",
+         }
+      )
          .then((res) => res.json())
          .then((data) => {
             if (data.deletedCount) {
@@ -76,7 +79,7 @@ const Cart = () => {
       data.quantity = totalQuantity;
 
       if (cartOrders.length) {
-         fetch(`http://localhost:5000/addOrder`, {
+         fetch(`https://polar-lake-68435.herokuapp.com/addOrder`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),

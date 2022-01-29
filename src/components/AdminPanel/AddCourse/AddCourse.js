@@ -11,7 +11,7 @@ const AddCourse = () => {
    } = useForm();
 
    const onSubmit = (data) => {
-      fetch(`http://localhost:5000/addCourse`, {
+      fetch(`https://polar-lake-68435.herokuapp.com/addCourse`, {
          method: "POST",
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify(data),

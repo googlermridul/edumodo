@@ -52,7 +52,7 @@ const CourseDetails = () => {
       data.email = user.email;
       data.quantity = 1;
 
-      fetch(`http://localhost:5000/addCartOrder`, {
+      fetch(`https://polar-lake-68435.herokuapp.com/addCartOrder`, {
          method: "POST",
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify(data),

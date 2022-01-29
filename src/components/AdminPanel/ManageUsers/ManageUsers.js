@@ -6,7 +6,7 @@ const ManageUsers = () => {
    const [users, setUsers] = useState([]);
 
    useEffect(() => {
-      fetch("http://localhost:5000/users")
+      fetch("https://polar-lake-68435.herokuapp.com/users")
          .then((res) => res.json())
          .then((data) => setUsers(data));
    }, []);
@@ -14,7 +14,7 @@ const ManageUsers = () => {
    const handleDelete = (id) => {
       const proceed = window.confirm("Are you sure you want to delete");
       if (proceed) {
-         fetch(`http://localhost:5000/deleteUser/${id}`, {
+         fetch(`https://polar-lake-68435.herokuapp.com/deleteUser/${id}`, {
             method: "DELETE",
          })
             .then((res) => res.json())

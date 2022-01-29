@@ -7,7 +7,7 @@ const ManageCourses = () => {
    const [menus, setMenus] = useState([]);
 
    useEffect(() => {
-      fetch("http://localhost:5000/menus")
+      fetch("https://polar-lake-68435.herokuapp.com/menus")
          .then((res) => res.json())
          .then((data) => setMenus(data));
    }, [menus]);
@@ -15,7 +15,7 @@ const ManageCourses = () => {
    const handleDelete = (id) => {
       const proceed = window.confirm("Are you sure you want to delete");
       if (proceed) {
-         fetch(`http://localhost:5000/deleteMenu/${id}`, {
+         fetch(`https://polar-lake-68435.herokuapp.com/deleteMenu/${id}`, {
             method: "DELETE",
          })
             .then((res) => res.json())

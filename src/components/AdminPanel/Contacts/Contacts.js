@@ -6,13 +6,13 @@ const TableBookings = () => {
    const [bookings, setBookings] = useState([]);
 
    useEffect(() => {
-      fetch("http://localhost:5000/bookings")
+      fetch("https://polar-lake-68435.herokuapp.com/bookings")
          .then((res) => res.json())
          .then((data) => setBookings(data));
    }, [bookings]);
 
    const handleUpdate = (id) => {
-      fetch(`http://localhost:5000/bookings/${id}`, {
+      fetch(`https://polar-lake-68435.herokuapp.com/bookings/${id}`, {
          method: "PUT",
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify(bookings),
@@ -28,7 +28,7 @@ const TableBookings = () => {
    const handleDelete = (id) => {
       const proceed = window.confirm("Are you sure you want to delete");
       if (proceed) {
-         fetch(`http://localhost:5000/deleteBooking/${id}`, {
+         fetch(`https://polar-lake-68435.herokuapp.com/deleteBooking/${id}`, {
             method: "DELETE",
          })
             .then((res) => res.json())

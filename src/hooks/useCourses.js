@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const useCourses = () => {
    const [menus, setMenus] = useState([]);
    useEffect(() => {
-      fetch("http://localhost:5000/courses")
+      fetch("https://polar-lake-68435.herokuapp.com/courses")
          .then((res) => res.json())
          .then((data) => setMenus(data));
    }, []);
