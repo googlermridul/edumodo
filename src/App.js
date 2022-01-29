@@ -14,51 +14,75 @@ import AuthProvider from "./contexts/AuthProvider";
 import CourseDetails from "./components/CourseDetails/CourseDetails";
 import Cart from "./components/Cart/Cart";
 import Dashboard from "./components/AdminPanel/Dashboard/Dashboard";
+import SyncLoader from "react-spinners/SyncLoader";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import { useEffect, useState } from "react";
 
 function App() {
+   const [loading, setLoading] = useState(false);
+   useEffect(() => {
+      setLoading(true);
+      setTimeout(() => {
+         setLoading(false);
+      }, 3000);
+   }, []);
+
    return (
       <AuthProvider>
-         <>
-            <Router>
-               <Header></Header>
-               <Switch>
-                  <Route exact path="/">
-                     <Main />
-                  </Route>
-                  <Route path="/home">
-                     <Main />
-                  </Route>
-                  <Route path="/about">
-                     <About />
-                  </Route>
-                  <Route path="/courses">
-                     <CoursePage />
-                  </Route>
-                  <Route path="/course/:courseId">
-                     <CourseDetails />
-                  </Route>
-                  <Route path="/contact">
-                     <Contact />
-                  </Route>
-                  <Route path="/login">
-                     <Login />
-                  </Route>
-                  <Route path="/register">
-                     <Register />
-                  </Route>
-                  <Route path="/cart">
-                     <Cart />
-                  </Route>
-                  <Route path="/admin">
-                     <Dashboard />
-                  </Route>
-                  <Route path="*">
-                     <NotFound />
-                  </Route>
-               </Switch>
-               <Footer></Footer>
-            </Router>
-         </>
+         {loading ? (
+            <div className="home-pre-loader">
+               <div className="d-flex justify-content-center align-items-center">
+                  <SyncLoader
+                     className="syncloader"
+                     color={"#2f2d52"}
+                     loading={loading}
+                     size={20}
+                  />
+               </div>
+            </div>
+         ) : (
+            <>
+               <Router>
+                  <Header />
+                  <Switch>
+                     <Route exact path="/">
+                        <Main />
+                     </Route>
+                     <Route path="/home">
+                        <Main />
+                     </Route>
+                     <Route path="/about">
+                        <About />
+                     </Route>
+                     <Route path="/courses">
+                        <CoursePage />
+                     </Route>
+                     <Route path="/course/:courseId">
+                        <CourseDetails />
+                     </Route>
+                     <Route path="/contact">
+                        <Contact />
+                     </Route>
+                     <Route path="/login">
+                        <Login />
+                     </Route>
+                     <Route path="/register">
+                        <Register />
+                     </Route>
+                     <PrivateRoute path="/cart">
+                        <Cart />
+                     </PrivateRoute>
+                     <PrivateRoute path="/admin">
+                        <Dashboard />
+                     </PrivateRoute>
+                     <Route path="*">
+                        <NotFound />
+                     </Route>
+                  </Switch>
+                  <Footer />
+               </Router>
+            </>
+         )}
       </AuthProvider>
    );
 }

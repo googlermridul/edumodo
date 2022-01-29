@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 import hamburger from "../../images/menu2.png";
 import userIcon from "../../images/user.png";
 import cartIcon from "../../images/shopping-bag.png";
+import logoutIcon from "../../images/logout.png";
+import useAuth from "../../hooks/useAuth";
 
 const Header = () => {
+   const { user, logOut } = useAuth();
+
    return (
       <nav className="navbar navbar-expand-md fixed-top">
          <div className="container">
@@ -40,11 +44,19 @@ const Header = () => {
                </ul>
             </div>
             <ul className="user-cart">
-               <li>
-                  <Link className="link" to="/login">
-                     <img src={userIcon} alt="" />
-                  </Link>
-               </li>
+               {user?.email ? (
+                  <li className="nav-item">
+                     <span onClick={logOut} className="link">
+                        <img src={logoutIcon} alt="" />
+                     </span>
+                  </li>
+               ) : (
+                  <li>
+                     <Link className="link" to="/login">
+                        <img src={userIcon} alt="" />
+                     </Link>
+                  </li>
+               )}
                <li>
                   <Link className="link" to="/cart">
                      <img src={cartIcon} alt="" />

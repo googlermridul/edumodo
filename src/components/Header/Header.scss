@@ -29,6 +29,10 @@
       margin: 0;
       li {
          margin: 0 15px;
+         img {
+            width: 24px;
+            cursor: pointer;
+         }
       }
    }
 }
