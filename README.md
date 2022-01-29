@@ -12,15 +12,14 @@
 
 ### What user can do:
 
--  User can order food from here.
+-  User can enrolled any course from here.
 -  User just needs to login here.
--  If you do not have an account, you have to create one to order food.
--  You can cancel your ordered food.
+-  If user do not have an account, user can create an account and purchase course.
 
 ### What admin can do:
 
--  Admin can add new menu.
--  Admin can control booked packages.
+-  Admin can add new course.
+-  Admin can control contacts.
 -  Admin can make another admin.
 
 ### Languages & Tools:
