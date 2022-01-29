@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./CourseSection.scss";
 import Course from "../Course/Course";
+import useCourses from "../../hooks/useCourses";
 
 const CourseSection = () => {
-   const [courses, setCourses] = useState([]);
-   useEffect(() => {
-      fetch("/courseData.json")
-         .then((res) => res.json())
-         .then((data) => setCourses(data.slice(0, 6)));
-   }, []);
+   const [courses] = useCourses();
 
    return (
       <div className="course-section">
@@ -18,7 +14,7 @@ const CourseSection = () => {
                <p>Discover Your Perfect Program In Our Courses.</p>
             </div>
             <div className="row">
-               {courses.map((course) => (
+               {courses.slice(0, 6).map((course) => (
                   <Course course={course} key={course._id}></Course>
                ))}
             </div>

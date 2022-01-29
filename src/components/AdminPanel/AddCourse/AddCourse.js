@@ -23,6 +23,7 @@ const AddCourse = () => {
                reset();
             }
          });
+      console.log(data);
    };
 
    return (
@@ -37,19 +38,49 @@ const AddCourse = () => {
                         className="mb-0 text-start"
                      >
                         <div className="row">
-                           <div className="form-group col-12">
+                           <div className="form-group col-md-6">
                               <input
                                  className="form-control"
                                  defaultValue=""
-                                 {...register("name", { required: true })}
+                                 {...register("title", { required: true })}
                                  type="text"
-                                 placeholder="Menu name"
+                                 placeholder="Course title"
                               />
-                              {errors.name && (
-                                 <span className="error">name is required</span>
+                              {errors.title && (
+                                 <span className="error">
+                                    title is required
+                                 </span>
                               )}
                            </div>
-                           <div className="form-group col-12">
+                           <div className="form-group col-md-6">
+                              <input
+                                 className="form-control"
+                                 defaultValue=""
+                                 {...register("duration", { required: true })}
+                                 type="text"
+                                 placeholder="Course duration"
+                              />
+                              {errors.duration && (
+                                 <span className="error">
+                                    duration is required
+                                 </span>
+                              )}
+                           </div>
+                           <div className="form-group col-md-6">
+                              <input
+                                 className="form-control"
+                                 defaultValue=""
+                                 {...register("lesson", { required: true })}
+                                 type="number"
+                                 placeholder="Lessons"
+                              />
+                              {errors.lesson && (
+                                 <span className="error">
+                                    lesson is required
+                                 </span>
+                              )}
+                           </div>
+                           <div className="form-group col-md-6">
                               <input
                                  className="form-control"
                                  defaultValue=""
@@ -63,7 +94,7 @@ const AddCourse = () => {
                                  </span>
                               )}
                            </div>
-                           <div className="form-group col-12">
+                           <div className="form-group col-md-6">
                               <input
                                  className="form-control"
                                  defaultValue=""
@@ -74,6 +105,52 @@ const AddCourse = () => {
                               {errors.image && (
                                  <span className="error">
                                     image url is required
+                                 </span>
+                              )}
+                           </div>
+                           <div className="form-group col-md-6">
+                              <select
+                                 className="form-control"
+                                 defaultValue=""
+                                 placeholder="Course language"
+                                 {...register("language", { required: true })}
+                              >
+                                 <option value="bangla">Bangla</option>
+                                 <option value="english">English</option>
+                              </select>
+                              {errors.language && (
+                                 <span className="error">
+                                    language is required
+                                 </span>
+                              )}
+                           </div>
+                           <div className="form-group col-md-6">
+                              <input
+                                 className="form-control"
+                                 defaultValue=""
+                                 {...register("instructor", { required: true })}
+                                 type="text"
+                                 placeholder="Instructor name"
+                              />
+                              {errors.instructor && (
+                                 <span className="error">
+                                    instructor name is required
+                                 </span>
+                              )}
+                           </div>
+                           <div className="form-group col-md-6">
+                              <input
+                                 className="form-control"
+                                 defaultValue=""
+                                 {...register("instructorImage", {
+                                    required: true,
+                                 })}
+                                 type="text"
+                                 placeholder="Instructor image URL"
+                              />
+                              {errors.instructorImage && (
+                                 <span className="error">
+                                    instructor image url is required
                                  </span>
                               )}
                            </div>

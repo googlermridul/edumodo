@@ -1,6 +1,5 @@
 [
    {
-      "_id": 1,
       "title": "Java Programming and Software Engineering Fundamentals",
       "category": "Software Engineering",
       "duration": "4h 5m",
@@ -8,21 +7,27 @@
       "price": 415,
       "rating": 4,
       "review": 10,
-      "image": "https://i.ibb.co/YZ15Nzc/pexels-artem-podrez-4492129-min.jpg"
+      "image": "https://i.ibb.co/YZ15Nzc/pexels-artem-podrez-4492129-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 2,
-      "title": "Learn Figma: User Interface Design Essentials – UI/UX Design",
+      "title": "Learn Figma: User Interface Design Essentials UI/UX Design",
       "category": "Personal Development",
       "duration": "4h 44m",
       "lessons": 10,
       "price": 489,
       "rating": 3.9,
       "review": 21,
-      "image": "https://i.ibb.co/F5CP0cr/pexels-emily-ranquist-1205651-min.jpg"
+      "image": "https://i.ibb.co/F5CP0cr/pexels-emily-ranquist-1205651-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 3,
       "title": "The Complete JavaScript Course 2020: Build Real Projects!",
       "category": "App Development",
       "duration": "35 week",
@@ -30,10 +35,13 @@
       "price": 419,
       "rating": 3.7,
       "review": 13,
-      "image": "https://i.ibb.co/bzFTNLP/pexels-fox-1595385-min.jpg"
+      "image": "https://i.ibb.co/bzFTNLP/pexels-fox-1595385-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "english",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 4,
       "title": "Open Source Software Development, Linux and Git",
       "category": "Designing",
       "duration": "3h 50m",
@@ -41,10 +49,13 @@
       "price": 129,
       "rating": 3.6,
       "review": 8,
-      "image": "https://i.ibb.co/1smh5LZ/pexels-fox-1595391-min.jpg"
+      "image": "https://i.ibb.co/1smh5LZ/pexels-fox-1595391-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "hindi",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 5,
       "title": "Digital Signal Processing: Analog vs Digital",
       "category": "Photography",
       "duration": "6h 40m",
@@ -52,10 +63,13 @@
       "price": 569,
       "rating": 4.6,
       "review": 22,
-      "image": "https://i.ibb.co/g44fVCM/pexels-giftpunditscom-1326947-min.jpg"
+      "image": "https://i.ibb.co/g44fVCM/pexels-giftpunditscom-1326947-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 6,
       "title": "Developing Android Apps with App Inventor",
       "category": "JavaScript",
       "duration": "6h 21m",
@@ -63,10 +77,13 @@
       "price": 415,
       "rating": 4,
       "review": 17,
-      "image": "https://i.ibb.co/vLZTTLm/pexels-julia-m-cameron-4144222-min.jpg"
+      "image": "https://i.ibb.co/vLZTTLm/pexels-julia-m-cameron-4144222-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 7,
       "title": "Become a CBRS Certified Professional Installer by Google",
       "category": "Job Preperation",
       "duration": "2h 12m",
@@ -74,10 +91,13 @@
       "price": 420,
       "rating": 2,
       "review": 10,
-      "image": "https://i.ibb.co/fCLWZBN/pexels-julia-m-cameron-4145153-min.jpg"
+      "image": "https://i.ibb.co/fCLWZBN/pexels-julia-m-cameron-4145153-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "english",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 8,
       "title": "Linux and Private Cloud Administration on IBM Power Systems",
       "category": "Linus Operating",
       "duration": "8h 12m",
@@ -85,10 +105,13 @@
       "price": 223,
       "rating": 2,
       "review": 9,
-      "image": "https://i.ibb.co/Wpdc6WX/pexels-max-fischer-5212345-min.jpg"
+      "image": "https://i.ibb.co/Wpdc6WX/pexels-max-fischer-5212345-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "english",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 9,
       "title": "Java Programming and Software Engineering Fundamentals",
       "category": "Java",
       "duration": "6h 48m",
@@ -96,10 +119,13 @@
       "price": 293,
       "rating": 3,
       "review": 34,
-      "image": "https://i.ibb.co/3yFkNMv/pexels-pragyan-bezbaruah-1720186-min.jpg"
+      "image": "https://i.ibb.co/3yFkNMv/pexels-pragyan-bezbaruah-1720186-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 10,
       "title": "Open Source Software Development, Linux and Git",
       "category": "Software",
       "duration": "8h 51m",
@@ -107,10 +133,13 @@
       "price": 499,
       "rating": 4.2,
       "review": 31,
-      "image": "https://i.ibb.co/q1BywcG/pexels-visual-tag-mx-2566581-min.jpg"
+      "image": "https://i.ibb.co/q1BywcG/pexels-visual-tag-mx-2566581-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "Hindi",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 11,
       "title": "Productivity and Time Management for workplace",
       "category": "Marketing",
       "duration": "4h 56m",
@@ -118,10 +147,13 @@
       "price": 349,
       "rating": 2,
       "review": 27,
-      "image": "https://i.ibb.co/bdzS1w2/pexels-yogendra-singh-731510-min.jpg"
+      "image": "https://i.ibb.co/bdzS1w2/pexels-yogendra-singh-731510-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "bangla",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    },
    {
-      "_id": 12,
       "title": "Developing Android Apps with App Inventor",
       "category": "Android Development",
       "duration": "7h 12m",
@@ -129,6 +161,10 @@
       "price": 249,
       "rating": 2.7,
       "review": 10,
-      "image": "https://i.ibb.co/HgWBmhL/pexels-artem-podrez-4492126-min.jpg"
+      "image": "https://i.ibb.co/HgWBmhL/pexels-artem-podrez-4492126-min.jpg",
+      "instructor": "Kathelen Monero",
+      "instructorImage": "https://i.ibb.co/n32tk8v/mridul.png",
+      "language": "english",
+      "description": "Do you want to become a UI/UX designer but you don't know where to start? This course will allow you to develop your user interface design skills and you can add UI designer to your CV and start getting clients for your skills. Hi everyone. I'm Arash and I'm a UI/UX designer. In this course, I will help you learn and master Figma app comprehensively from scratch. Figma is an innovative and brilliant tool for User Interface design. It's used by everyone from entrepreneurs and start-ups to Apple, Airbnb, Facebook, etc."
    }
 ]

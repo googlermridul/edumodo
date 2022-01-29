@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import Course from '../Course/Course';
+import React from "react";
+import useCourses from "../../hooks/useCourses";
+import Course from "../Course/Course";
 
 const CoursePage = () => {
-   const [courses, setCourses] = useState([])
-   useEffect(() => {
-      fetch('/courseData.json')
-      .then(res => res.json())
-      .then(data => setCourses(data))
-   }, [])
+   const [courses] = useCourses();
 
    return (
       <div className="courses course-page">
@@ -17,11 +13,9 @@ const CoursePage = () => {
                <p>Discover Your Perfect Program In Our Courses.</p>
             </div>
             <div className="row">
-               {
-                  courses.map(course => <Course
-                     course={course}
-                     key={course.id}></Course> )
-               }
+               {courses.map((course) => (
+                  <Course course={course} key={course._id}></Course>
+               ))}
             </div>
          </div>
       </div>
